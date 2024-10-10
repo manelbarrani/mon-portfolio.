@@ -1,18 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
 }
+
 header {
-    background: #35424a;
+    background-color: rgb(174, 34, 113);
     color: #ffffff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
-section {
-    padding: 20px;
-    margin: 10px;
-    background: #ffffff;
-    border-radius: 5px;
+
+.section-title {
+    margin: 40px 0 20px;
+    text-align: center;
+    color: #007bff; /* Changez cette couleur selon vos préférences */
+    border-bottom: 2px solid #343a40; /* Ligne de séparation sous le titre */
+    padding-bottom: 10px;
 }
+
+.about-img {
+    border-radius: 50%;
+    width: 150px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+section {
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 20px;
+    margin: 20px 0; /* Espacement */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+footer {
+    background-color: #cc84a9;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 24px;
+    color: #007bff;
